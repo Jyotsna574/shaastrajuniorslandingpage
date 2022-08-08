@@ -1,0 +1,508 @@
+
+
+.Body{
+  overflow: hidden;
+height: 6120px;
+background: #0B0126;
+
+}
+
+.nav {
+  top: 0;
+  box-sizing: border-box;
+  width: auto;
+  height: 85px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+  border: 1px solid #050839;
+  box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+
+border-radius: 0px;
+
+
+
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+  color: #FFFFFF;
+
+
+}
+.img{
+  width: 170px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+
+.nav-items li {
+  padding: 15px;
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  height: fit-content;
+  margin: auto;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 18px;
+  /* or 481% */
+}
+
+.signup
+{
+  width: 100px;
+  height: 50px;
+
+
+  background: linear-gradient(180deg, #AF18B1 0%, rgba(175, 24, 177, 0.177083) 82.29%, rgba(175, 24, 177, 0) 100%);
+  border-radius: 30px;
+
+  border-color: transparent;
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  color: #FFFFFF;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 10px;
+  padding: 4px;
+  /* or 481% */
+}
+
+.signup:hover 
+{
+  background-color: #0B0126;
+  color: white;
+}
+
+.firstpage
+{
+
+  position: absolute;
+width: 100%;
+height: 850px;
+left: 0px;
+top: 80px;
+background: url(C:\Users\Frooty\Desktop\xyz\shaastra-juniors\shaastrajuniors\public\image1.png);
+  background-size: cover;
+}
+.firsttext{
+  /* SHAASTRA JUNIORS 2022 */
+  
+  position: absolute;
+  /* width: 1022px;
+  height: 605px; */
+  flex-wrap: wrap;
+  left: 0px;
+  top: 5px;
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 150px;
+  padding-left: 3%;
+  
+  color: #EAE4FF;
+  }
+
+  .datetext{
+    position: absolute;
+  /* width: 1022px;
+  height: 605px; */
+  flex-wrap: wrap;
+  left: 0px;
+  top: 280px;
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 180px;
+  padding-left: 3%;
+  color: #EAE4FF;
+  }
+
+.textimg{
+  display: flex;
+  flex-wrap: wrap;
+}
+.scrolldown{
+  /* Glassmorphic div */
+  box-sizing: border-box;
+  
+  position: absolute;
+  width: 1513px;
+  height: 100px;
+  left: 0px;
+  top: 490px;
+  
+  
+  font-family: 'PT Sans NARROW';
+  font-style: normal;
+  font-weight: 400;
+  color: #EAE4FF;
+  text-align: left;
+  font-size: 30px;
+  line-height: 8px;
+  padding-left: 3%;
+  padding-top: 1%;
+
+  /* or 200% */
+  
+  background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+  border: transparent;
+  box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+  backdrop-filter: blur(40px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 0px;
+  }
+  
+.stats
+{
+  position: absolute;
+width: 100%;
+height: 508px;
+left: 0px;
+display: flex;
+flex-wrap: wrap;
+top: 1000px;
+background: url(C:\Users\Frooty\Desktop\xyz\shaastra-juniors\shaastrajuniors\public\asdfgh.png);
+background-size: cover;
+}
+
+.statnum
+{
+  text-align: end;
+  font-family: 'PT Sans Narrow';
+  font-style: bold;
+
+  font-weight: 700;
+  font-size: 128px;
+  line-height: 166px;
+  color: #FFFFFF;
+}
+.statname
+{
+  text-align: end;
+  font-family: 'PT Sans Narrow';
+  margin-top: -120px;
+  font-weight: 700;
+  font-size: 78px;
+  line-height: 166px;
+  color: #FFFFFF;
+}
+
+.sponsors
+{
+  position: absolute;
+width: 100%;
+height: 1008px;
+left: -25px;
+top: 3770px;
+background: url(C:\Users\Frooty\Desktop\xyz\shaastra-juniors\shaastrajuniors\public\rect.png);
+background-size: cover;
+
+color: #FFFFFF;
+
+}
+
+
+.aboutus{
+  position: absolute;
+width: 1520px;
+height: 871px;
+left: 0px;
+top: 1580px;
+background: url(C:\Users\Frooty\Desktop\xyz\shaastra-juniors\shaastrajuniors\public\image2.png);
+background-size: cover;
+
+
+}
+.aboutheading
+{
+ /* ABOUT US */
+
+
+position: absolute;
+width: 845px;
+height: 337px;
+left: 630px;
+top: 12px;
+
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+text-align: end;
+font-size: 80px;
+line-height: 130px;
+/* or 108% */
+
+
+color: #EAE4FF;
+
+}
+.aboutpara{
+  box-sizing: border-box;
+
+position: absolute;
+width: 877px;
+height: 587px;
+left: 635px;
+top: 283px;
+
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 500;
+font-size: 28px;
+line-height: 36px;
+text-align: right;
+letter-spacing: 0.07em;
+padding: 3% 0% 3% 3%;
+
+color: #FFD8F2;
+margin: auto;
+background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+border: transparent;
+box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 80px 0px 0px 80px;
+
+}
+.contactus
+{
+  position: absolute;
+width: 100%;
+height: 1022px;
+left: 0px;
+top: 4850px;
+
+
+background: url(C:\Users\Frooty\Desktop\xyz\shaastra-juniors\shaastrajuniors\public\image3456.png);
+background-size: cover;
+}
+
+.sponstitle
+{
+  /* SPONSORS */
+  position: absolute;
+  width: 845px;
+  height: 337px;
+  left: 750px;
+
+  font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 130px;
+
+/* or 108% */
+
+
+color: #EAE4FF;
+}
+
+
+
+
+.contacttitle
+{
+  position: absolute;
+  width: 845px;
+  height: 337px;
+  left: 0px;
+
+  font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 700;
+font-size: 80px;
+line-height: 130px;
+padding-left: 3%;
+
+/* or 108% */
+
+
+color: #EAE4FF;
+}
+.contact1
+{
+
+  
+position: absolute;
+width: 287px;
+height: 157px;
+left: 949px;
+top: 160px;
+
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 2px;
+padding : 3%;
+/* or 140% */
+
+color: #FFFFFF;
+
+
+background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+border-top: 10px solid rgba(252, 252, 255, 0.28);
+box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 70px;
+}
+
+.contact2
+{
+/* Glassmorphic div */
+
+position: absolute;
+width: 287px;
+height: 157px;
+left: 949px;
+top: 450px;
+
+font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 2px;
+padding : 3%;
+/* or 140% */
+
+
+color: #FFFFFF;
+
+background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+border-top: 10px solid rgba(252, 252, 255, 0.28);
+box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+backdrop-filter: blur(40px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 70px;
+}
+.cards{
+    display: contents;
+}
+.conimg{
+  position: absolute;
+width: 571px;
+height: 729px;
+left: 198px;
+top: 150px;
+
+}
+.highlights
+{
+  position: absolute;
+  width: 100%;
+  background-size: cover;
+  height: 1165px;
+  left: 0px;
+  top: 2550px;
+  overflow-x: hidden;
+  font-family: 'PT Sans Narrow';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 130px;
+  padding-left: 3%;
+  color: #EAE4FF;
+}
+
+
+.event1
+{
+  
+position: absolute;
+width: 400px;
+height: 658px;
+
+
+
+background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+border-top: 10px solid rgba(198, 9, 255, 0.28);
+box-shadow: 4px -4px 24px -1px rgba(17, 22, 79, 0.2);
+backdrop-filter: blur(50px);
+
+
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 300px 300px 0px 0px;
+}
+.event2{
+  
+  position: absolute;
+  width: 400px;
+  height: 658px;
+  left: 486px;
+  
+  
+  background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+  border-top: 10px solid rgba(244, 26, 193, 0.28);
+  box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+  
+  border-radius: 300px 300px 0px 0px;
+}
+  .event3{
+  
+    position: absolute;
+    width: 400px;
+    height: 658px;
+    left: 916px;
+    
+    
+    background: linear-gradient(117.5deg, rgba(255, 255, 255, 0.15) -69.92%, rgba(255, 255, 255, 0.17) -69.92%, rgba(255, 255, 255, 0.21) -69.9%, rgba(255, 255, 255, 0.13) -48.83%, rgba(255, 255, 255, 0.09) 82.65%);
+    border-top: 10px solid rgba(9, 21, 246, 0.28);
+    box-shadow: 4px -4px 24px -1px rgba(24, 30, 97, 0.2);
+    backdrop-filter: blur(50px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 300px 300px 0px 0px;
+  }
+      /* FOOTER */
+      .footer {
+        left: 0;
+        margin-top: 750px;
+        width: 100%;
+        background-color: #0B0126 ;
+        color: white;
+        text-align: left;
+        background-size: cover;
+        background-position: center center;
+        height: 10%;
+        padding-top: 8%;
+        padding-bottom: 8%;
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+
+        font-family: 'PT Sans Narrow';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0.08em;
+
+color: #EAE4FF;
+      }
+      .shaastra{
+        width: 33%;
+      }
+      .contact{
+        width: 33%;
+        
+      }
+      .address{
+        width: 33%;
+      }
